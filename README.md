@@ -22,6 +22,11 @@ Ce projet nécessite l'installation de certaines bibliothèques Python listées 
     ```bash
     pip install -r requirements.txt
     ```
+3. **Lancer la visualisations :
+
+    ```bash
+    python Dijkstra.py
+    ```
 
 ## Remarques supplémentaires
 - Si vous rencontrez des problèmes de permissions, essayez d’ajouter l’option `--user` à la commande :
