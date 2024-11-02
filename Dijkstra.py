@@ -17,7 +17,7 @@ def dijkstra(graph, src, dest, G, pos):
         colors = ['green' if node in visited else 'lightblue' for node in G.nodes()]
         nx.draw(G, pos, node_color=colors, with_labels=True, node_size=800, font_size=10)
         
-        # Draw the path in green
+        # Draw the path in red
         nx.draw_networkx_edges(G, pos, edgelist=shortest_path_edges, edge_color='red', width=2)
         
         # Highlight the current node in yellow
