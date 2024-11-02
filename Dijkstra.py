@@ -1,8 +1,7 @@
 import sys
 import networkx as nx
 import matplotlib.pyplot as plt
-from heapq import heappop, heappush
-import time
+from heapq import heappush
 
 def dijkstra(graph, src, dest, G, pos):
     inf = sys.maxsize

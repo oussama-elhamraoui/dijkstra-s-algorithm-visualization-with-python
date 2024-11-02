@@ -24,6 +24,7 @@ Ce projet nécessite l'installation de certaines bibliothèques Python listées 
     ```
 
 ## Remarques supplémentaires
+
 - Si vous rencontrez des problèmes de permissions, essayez d’ajouter l’option `--user` à la commande :
 
     ```bash
