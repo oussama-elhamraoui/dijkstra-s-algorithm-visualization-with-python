@@ -25,7 +25,7 @@ def dijkstra(graph, src, dest, G, pos):
     shortest_path_edges = []  
     # Liste qui stockera les arêtes composant le chemin le plus court une fois l'algorithme terminé.  
 
-
+ 
     # Fonction de mise à jour de la visualisation
     def update_visualization(current_node=None, shortest_path_edges=[]):  
         plt.clf()  
